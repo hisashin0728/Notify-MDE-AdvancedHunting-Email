@@ -9,8 +9,9 @@
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FNotify-MDE-AdvancedHunting-Email%2Fmain%2Ftemplate.json)
 
 # 設定後必要なアクション
-本テンプレートは Office 365 コネクタと Defender ATP コネクタを利用しています。API 接続のため、以下設定を実施して下さい。
-(**注意**) Defender ATP の Powershell スクリプト実施後、反映までに 10 分ほど余裕を見てください（Entra ID でロール付与されても、実反映に時間がかかる模様）
+本テンプレートは Office 365 コネクタと Defender ATP コネクタを利用しています。API 接続のため、以下設定を実施して下さい。<BR>
+(**注意**) Defender ATP の Powershell スクリプト実施後、反映までに 10 分ほど余裕を見てください。<BR>
+※ Azure Portal 側で Entra ID でロール付与されても、実反映に時間がかかるようです。
 
 - Office 365 コネクタ **ユーザー認証**
  - テンプレート展開後、ロジックアプリの API 接続から、Office 365 コネクタを選択する
