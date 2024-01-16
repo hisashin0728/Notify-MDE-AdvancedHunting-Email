@@ -5,7 +5,8 @@
 <img width="510" alt="image" src="https://github.com/hisashin0728/Notify-MDE-AdvancedHunting-Email/assets/55295601/4d71d1f1-519e-4de7-b6fc-c456c8af4bed">
 
 # 設定
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FNotify-MDE-AdvancedHunting-Email%2Fmain%2Ftemplate.json)
+以下の Deploy To Azure ボタンでテンプレートを展開して下さい。
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FNotify-MDE-AdvancedHunting-Email%2Fmain%2Ftemplate.json)
 
 # 設定後必要なアクション
 本テンプレートは Office 365 コネクタと Defender ATP コネクタを利用しています。API 接続のため、以下設定を実施して下さい。
