@@ -1,6 +1,6 @@
 # Notify-MDE-AdvancedHunting-Email
 このレポジトリは MDE Advanced Hunting を定期的に実行し、結果をメールで通知するサンプルです。<BR>
-<alt="image" src="https://github.com/hisashin0728/Notify-MDE-AdvancedHunting-Email/assets/55295601/2d88cde9-3378-442c-a2ed-586555da6501">
+<img width="510" alt="image" src="https://github.com/hisashin0728/Notify-MDE-AdvancedHunting-Email/assets/55295601/2d88cde9-3378-442c-a2ed-586555da6501">
 
 # 通知イメージ
 <img width="510" alt="image" src="https://github.com/hisashin0728/Notify-MDE-AdvancedHunting-Email/assets/55295601/4d71d1f1-519e-4de7-b6fc-c456c8af4bed">
