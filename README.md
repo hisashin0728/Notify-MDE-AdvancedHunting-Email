@@ -5,11 +5,12 @@
 <img width="510" alt="image" src="https://github.com/hisashin0728/Notify-MDE-AdvancedHunting-Email/assets/55295601/4d71d1f1-519e-4de7-b6fc-c456c8af4bed">
 
 # 設定
-以下の Deploy To Azure ボタンでテンプレートを展開して下さい。
+以下の Deploy To Azure ボタンでテンプレートを展開して下さい。<BR>
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fhisashin0728%2FNotify-MDE-AdvancedHunting-Email%2Fmain%2Ftemplate.json)
 
 # 設定後必要なアクション
 本テンプレートは Office 365 コネクタと Defender ATP コネクタを利用しています。API 接続のため、以下設定を実施して下さい。
+(**注意**) Defender ATP の Powershell スクリプト実施後、反映までに 10 分ほど余裕を見てください（Entra ID でロール付与されても、実反映に時間がかかる模様）
 
 - Office 365 コネクタ **ユーザー認証**
  - テンプレート展開後、ロジックアプリの API 接続から、Office 365 コネクタを選択する
@@ -24,7 +25,7 @@
 PS /home/hisashi> Connect-AzureAD
 ```
   - Entra ID アプリケーション (ロジックアプリのマネージド ID) に対して、``Ip.Read.All``, ``Url.Read.All``, ``File.Read.All``, ``AdvancedQuery.Read.All`` の権限を付与する
-```
+```powershell
 $MIGuid = "<Enter your managed identity guid here>"
 $MI = Get-AzureADServicePrincipal -ObjectId $MIGuid
 
