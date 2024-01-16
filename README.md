@@ -1,5 +1,5 @@
 # Notify-MDE-AdvancedHunting-Email
-このレポジトリは MDE Advanced Hunting を定期的に実行し、結果をメールで通知するサンプルです。
+このレポジトリは MDE Advanced Hunting を定期的に実行し、結果をメールで通知するサンプルです。<BR>
 <img width="217" alt="image" src="https://github.com/hisashin0728/Notify-MDE-AdvancedHunting-Email/assets/55295601/2d88cde9-3378-442c-a2ed-586555da6501">
 
 # 通知イメージ
