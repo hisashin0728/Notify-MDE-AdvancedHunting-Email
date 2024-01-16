@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "metadata": {
         "title": "NotifiCation-MDE-Hunting",
-        "description": "This playbook will notify MDE Hunting result by",
+        "description": "This playbook will notify MDE Hunting result by Email.",
         "lastUpdateTime": "2024-01-16T00:00:00.000Z",
         "tags": [ "Security" ],
         "author": {
@@ -12,7 +12,7 @@
     },
     "parameters": {
         "PlayBookName": {
-            "defaultValue": "MdeHuntingNotification2",
+            "defaultValue": "MdeHuntingNotification",
             "type": "String"
         },
         "TargetEmailAddress": {
