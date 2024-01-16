@@ -13,13 +13,13 @@
 (**注意**) Defender ATP の Powershell スクリプト実施後、反映までに 10 分ほど余裕を見てください。<BR>
 ※ Azure Portal 側で Entra ID でロール付与されても、実反映に時間がかかるようです。
 
-- Office 365 コネクタ **ユーザー認証**
+- Office 365 コネクタ / **ユーザー認証**
  - テンプレート展開後、ロジックアプリの API 接続から、Office 365 コネクタを選択する
  - <img width="459" alt="image" src="https://github.com/hisashin0728/Notify-MDE-AdvancedHunting-Email/assets/55295601/71fff7fb-a88d-4f33-bdde-829c2298376a">
  - 「API 接続の編集」より、``承認する``を押して、送信元の Office 365 ユーザーで認証する
  - <img width="624" alt="image" src="https://github.com/hisashin0728/Notify-MDE-AdvancedHunting-Email/assets/55295601/c845ca37-fa33-4cd0-99f6-bce1234ee765">
 
-- Defender ATP コネクタ **マネージド ID**
+- Defender ATP コネクタ / **マネージド ID**
   - テンプレートの展開後、Powershell を用いて以下を実施して下さい。(CloudShell でも可能)
   - Connect-AzureAD で認証
 ```
